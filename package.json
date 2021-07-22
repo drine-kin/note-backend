@@ -1,0 +1,23 @@
+{
+  "name": "user_auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest --verbose --runInBand"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jest": "^27.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.12"
+  }
+}
